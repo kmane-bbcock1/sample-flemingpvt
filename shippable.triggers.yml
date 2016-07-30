@@ -1,0 +1,5 @@
+triggers:
+   - name: pvtbb-tg1
+     type: trigger
+     version:
+       counter: 1
