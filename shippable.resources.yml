@@ -9,3 +9,12 @@ resources:
       sourceName: "shippabledocker/pipelinev2"
     seed:
       versionName: "deploy.1"
+      
+  - name: "pvtbbgitrepo_samplefleming_testgitrepo"
+    type: gitRepo
+    integration: "bitbucket"
+    pointer:
+      sourceName: "shiphitchcock1/sample-fleming"
+      branch: "testgitrepo"
+      
+    
